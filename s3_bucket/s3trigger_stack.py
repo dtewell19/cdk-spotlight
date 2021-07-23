@@ -12,4 +12,7 @@ class S3TriggerStack(core.Stack):
         super().__init__(scope, id, **kwargs)
 
         # create s3 bucket
-        self.s3 = _s3.Bucket(self, "s3bucket")
+        self.s3 = _s3.Bucket(
+            self, 
+            "s3bucket",
+    )

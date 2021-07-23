@@ -1,0 +1,7 @@
+# s3 encryption
+            encryption=_s3.BucketEncryption.KMS,
+            bucket_key_enabled=True,
+            block_public_access=_s3.BlockPublicAccess.BLOCK_ALL,
+
+# tags
+core.Tags.of(app).add("projectName", "CDK Spotlight")

@@ -9,7 +9,7 @@ app = core.App()
 
 s3_stack = S3TriggerStack(
     app,
-    "s3-trigger"
+    "s3-bucket"
 )
 
 lambda_stack = LambdaFunctionStack(
