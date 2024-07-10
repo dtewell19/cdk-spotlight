@@ -3,3 +3,4 @@ aws-cdk.core
 aws-cdk.aws-s3
 aws-cdk.aws-lambda
 aws-cdk.aws_s3_notifications
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
